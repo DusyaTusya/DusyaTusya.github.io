@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer>
+        function userName() {
+    let name = prompt("Напишите, как Вас зовут");
+
+    if (name == ""){
+    alert("Привет, Гость!")
+    }
+    if (name != ""){
+    
+
+    alert(`Привет, ${name}!`)};
+}
+    </script>
+</head>
+<body class="chat">
+    <div class="container">
+        <header>
+            <h1>Сайт</h1>
+        </header>
+        <hr>
+        
+        <hr>
+        <main>
+            <h2>Чат</h2>
+            <input type="text">
+            <button onclick="userName()">Отправить</button>
+            <ul>
+                <li>Сообщение1</li>
+                <li>Сообщение2</li>
+                <li>Сообщение3</li>
+            </ul>
+        </main>
+        <hr>
+        <footer>
+            (c)2023 Nata_Rom
+        </footer>
+    </div>
+</body>
+</html>
